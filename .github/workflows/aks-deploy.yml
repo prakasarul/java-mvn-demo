@@ -1,9 +1,5 @@
 name: Publish the java project to kubernetes
-on:
-    push:
-    branches: [ "main" ]
-
-    workflow_dispatch:
+on: [push]
 
 jobs:
     build:
